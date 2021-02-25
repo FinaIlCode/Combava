@@ -1,0 +1,210 @@
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h1{
+	font-size: 200%;
+}
+h2{
+	font-size: 120%;
+}
+p{
+	font-size: 100%;
+}
+@font-face {
+    font-family:RockSalt-Regular;
+    src: url('police/RockSalt-Regular.ttf');
+}
+
+@media screen and (min-width: 123px) and (max-width: 768px){
+
+
+	nav{
+		margin-top: 5%;
+		margin-bottom:20px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	nav li{
+		line-height:40px;
+		width :20%;
+		display:inline-block;
+		vertical-align: middle;
+	}
+
+	nav a{
+		color:black;
+		font-size:20px;
+		text-decoration:none;
+		text-align:center;
+		display:block;
+	}
+	body{
+		background-image: url(images/head.jpg);
+		font-family : RockSalt-Regular;
+		text-align: center;
+	}
+	header{
+		margin-top: 5%;
+	}
+
+	header img,p{
+		display: inline-block;
+	}
+	#Join img{
+		float: right;
+		border: solid 1px black;
+		margin: 0% 30% 0% 20%;
+	} 
+	.st{
+		margin-top: 5%;
+		margin-bottom: 3%; 
+	}
+	.box{
+		background-color: #B9AFAF ;
+		padding: 10px 5px 2px 5px;
+		border: 1px solid black;
+		width: 60%;
+		margin: auto;
+	}
+	.espace{
+		padding-top: 2%;
+		padding-bottom: 2%;
+	}
+	.bold{
+		font-weight: bold;
+	}
+	.gros{
+		font-size: 200%;
+	}
+	.formulaire{
+		background-color: #B9AFAF;
+		border: solid 1px black;
+		text-align: left;
+	}
+	.info{
+		text-align: center;
+	}
+	#Contact li{
+		display: inline-block;
+	}
+	#imgs{
+		margin-top: 5%;
+	}
+}
+@media screen and (min-width: 768px){
+	nav{
+		margin-top: 5%;
+		margin-bottom:20px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	nav li{
+		line-height:40px;
+		width :20%;
+		display:inline-block;
+		vertical-align: middle;
+	}
+
+	nav a{
+		color:black;
+		font-size:20px;
+		text-decoration:none;
+		text-align:center;
+		display:block;
+	}
+	body{
+		background-image: url(images/head.jpg);
+		font-family : RockSalt-Regular;
+		text-align: center;
+	}
+	header{
+		margin-top: 5%;
+	}
+
+	header img,p{
+		display: inline-block;
+	}
+	#Join img{
+		float: right;
+		border: solid 1px black;
+		margin: 0% 30% 0% 20%;
+	} 
+	.st{
+		margin-top: 5%;
+		margin-bottom: 3%; 
+	}
+	.box{
+		background-color: #B9AFAF ;
+		padding: 10px 5px 2px 5px;
+		border: 1px solid black;
+		width: 60%;
+		margin: auto;
+	}
+	.espace{
+		padding-top: 2%;
+		padding-bottom: 2%;
+	}
+	.bold{
+		font-weight: bold;
+	}
+	.gros{
+		font-size: 200%;
+	}
+	.formulaire{
+		background-color: #B9AFAF;
+		border: solid 1px black;
+		text-align: left;
+	}
+	.info{
+		text-align: center;
+	}
+	#Contact li{
+		display: inline-block;
+	}
+	#imgs{
+		margin-top: 5%;
+	}
+	.valide{
+		text-align: center;
+	}
+
+}
